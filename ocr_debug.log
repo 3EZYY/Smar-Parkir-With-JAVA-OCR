@@ -1,0 +1,572 @@
+Jun 13, 2025 4:04:04 AM org.example.ScanPlatNomor startCamera
+INFO: Memulai kamera dengan format: dshow
+Jun 13, 2025 4:04:12 AM org.example.ScanPlatNomor captureImage
+INFO: Captured image saved to: captured_images/plate_20250613_040412.jpg
+Jun 13, 2025 4:04:13 AM org.example.ScanPlatNomor performOCR
+INFO: Performing OCR on file: C:\Users\rafif\Downloads\ALPRO UAS\Smart-Parkir\captured_images\processed_20250613_040413.jpg
+Jun 13, 2025 4:04:14 AM org.example.ScanPlatNomor performOCR
+INFO: OCR raw result: 4
+
+Jun 13, 2025 4:04:14 AM org.example.ScanPlatNomor cleanupLicensePlate
+INFO: Original OCR text: 4
+
+Jun 13, 2025 4:04:14 AM org.example.ScanPlatNomor cleanupLicensePlate
+INFO: After basic cleanup: 4
+Jun 13, 2025 4:05:12 AM org.example.ScanPlatNomor updateCameraImage
+SEVERE: Error updating camera image
+org.bytedeco.javacv.FrameGrabber$Exception: grab() Error: Could not grab frame. (Has start() been called?)
+	at org.bytedeco.javacv.OpenCVFrameGrabber.grab(OpenCVFrameGrabber.java:298)
+	at org.example.ScanPlatNomor.updateCameraImage(ScanPlatNomor.java:400)
+	at org.example.ScanPlatNomor.lambda$startCamera$3(ScanPlatNomor.java:347)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:358)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+Jun 13, 2025 1:45:20 PM org.example.ScanPlatNomor startCamera
+INFO: Memulai kamera dengan format: dshow
+Jun 13, 2025 1:45:56 PM org.example.ScanPlatNomor updateCameraImage
+SEVERE: Error updating camera image
+org.bytedeco.javacv.FrameGrabber$Exception: grab() Error: Could not grab frame. (Has start() been called?)
+	at org.bytedeco.javacv.OpenCVFrameGrabber.grab(OpenCVFrameGrabber.java:298)
+	at org.example.ScanPlatNomor.updateCameraImage(ScanPlatNomor.java:400)
+	at org.example.ScanPlatNomor.lambda$startCamera$3(ScanPlatNomor.java:347)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:358)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+Jun 13, 2025 1:46:01 PM org.example.ScanPlatNomor startCamera
+INFO: Memulai kamera dengan format: dshow
+Jun 13, 2025 1:46:37 PM org.example.ScanPlatNomor captureImage
+INFO: Captured image saved to: captured_images/plate_20250613_134637.jpg
+Jun 13, 2025 1:46:40 PM org.example.ScanPlatNomor performOCR
+INFO: Performing OCR on file: C:\Users\rafif\Downloads\ALPRO UAS\Smart-Parkir\captured_images\processed_20250613_134640.jpg
+Jun 13, 2025 1:46:40 PM org.example.ScanPlatNomor performOCR
+INFO: OCR raw result: 
+Jun 13, 2025 1:46:40 PM org.example.ScanPlatNomor cleanupLicensePlate
+INFO: Original OCR text: 
+Jun 13, 2025 1:47:11 PM org.example.ScanPlatNomor updateCameraImage
+SEVERE: Error updating camera image
+org.bytedeco.javacv.FrameGrabber$Exception: grab() Error: Could not grab frame. (Has start() been called?)
+	at org.bytedeco.javacv.OpenCVFrameGrabber.grab(OpenCVFrameGrabber.java:298)
+	at org.example.ScanPlatNomor.updateCameraImage(ScanPlatNomor.java:400)
+	at org.example.ScanPlatNomor.lambda$startCamera$3(ScanPlatNomor.java:347)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:358)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+Jun 13, 2025 1:47:11 PM org.example.ScanPlatNomor updateCameraImage
+SEVERE: Error updating camera image
+org.bytedeco.javacv.FrameGrabber$Exception: grab() Error: Could not grab frame. (Has start() been called?)
+	at org.bytedeco.javacv.OpenCVFrameGrabber.grab(OpenCVFrameGrabber.java:298)
+	at org.example.ScanPlatNomor.updateCameraImage(ScanPlatNomor.java:400)
+	at org.example.ScanPlatNomor.lambda$startCamera$3(ScanPlatNomor.java:347)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:358)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+Jun 13, 2025 9:20:05 PM org.example.ScanPlatNomor startCamera
+INFO: Memulai kamera dengan format: dshow
+Jun 13, 2025 9:31:02 PM org.example.ScanPlatNomor updateCameraImage
+SEVERE: Error updating camera image
+org.bytedeco.javacv.FrameGrabber$Exception: grab() Error: Could not grab frame. (Has start() been called?)
+	at org.bytedeco.javacv.OpenCVFrameGrabber.grab(OpenCVFrameGrabber.java:298)
+	at org.example.ScanPlatNomor.updateCameraImage(ScanPlatNomor.java:400)
+	at org.example.ScanPlatNomor.lambda$startCamera$3(ScanPlatNomor.java:347)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:358)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+Jun 14, 2025 5:10:44 PM org.example.ScanPlatNomor startCamera
+INFO: Memulai kamera dengan format: dshow
+Jun 14, 2025 5:11:01 PM org.example.ScanPlatNomor captureImage
+INFO: Captured image saved to: captured_images/plate_20250614_171101.jpg
+Jun 14, 2025 5:11:02 PM org.example.ScanPlatNomor performOCR
+INFO: Performing OCR on file: C:\Users\rafif\Downloads\ALPRO UAS\Smart-Parkir\captured_images\processed_20250614_171102.jpg
+Jun 14, 2025 5:11:02 PM org.example.ScanPlatNomor performOCR
+INFO: OCR raw result: 
+Jun 14, 2025 5:11:02 PM org.example.ScanPlatNomor cleanupLicensePlate
+INFO: Original OCR text: 
+Jun 14, 2025 5:12:41 PM org.example.ScanPlatNomor updateCameraImage
+SEVERE: Error updating camera image
+org.bytedeco.javacv.FrameGrabber$Exception: grab() Error: Could not grab frame. (Has start() been called?)
+	at org.bytedeco.javacv.OpenCVFrameGrabber.grab(OpenCVFrameGrabber.java:298)
+	at org.example.ScanPlatNomor.updateCameraImage(ScanPlatNomor.java:400)
+	at org.example.ScanPlatNomor.lambda$startCamera$3(ScanPlatNomor.java:347)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:358)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+Jun 14, 2025 9:35:06 PM org.example.ScanPlatNomor startCamera
+INFO: Memulai kamera dengan format: dshow
+Jun 14, 2025 9:35:39 PM org.example.ScanPlatNomor captureImage
+INFO: Captured image saved to: captured_images/plate_20250614_213539.jpg
+Jun 14, 2025 9:35:42 PM org.example.ScanPlatNomor performOCR
+INFO: Performing OCR on file: C:\Users\rafif\Downloads\ALPRO UAS\Smart-Parkir\captured_images\processed_20250614_213542.jpg
+Jun 14, 2025 9:35:42 PM org.example.ScanPlatNomor performOCR
+INFO: OCR raw result: 
+Jun 14, 2025 9:35:42 PM org.example.ScanPlatNomor cleanupLicensePlate
+INFO: Original OCR text: 
+Jun 14, 2025 9:37:39 PM org.example.ScanPlatNomor updateCameraImage
+SEVERE: Error updating camera image
+org.bytedeco.javacv.FrameGrabber$Exception: grab() Error: Could not grab frame. (Has start() been called?)
+	at org.bytedeco.javacv.OpenCVFrameGrabber.grab(OpenCVFrameGrabber.java:298)
+	at org.example.ScanPlatNomor.updateCameraImage(ScanPlatNomor.java:400)
+	at org.example.ScanPlatNomor.lambda$startCamera$3(ScanPlatNomor.java:347)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:358)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+Jun 15, 2025 1:59:24 PM org.example.ScanPlatNomor startCamera
+INFO: Memulai kamera dengan format: dshow
+Jun 15, 2025 2:02:52 PM org.example.ScanPlatNomor captureImage
+INFO: Captured image saved to: captured_images/plate_20250615_140252.jpg
+Jun 15, 2025 2:02:54 PM org.example.ScanPlatNomor performOCR
+INFO: Performing OCR on file: C:\Users\rafif\Downloads\ALPRO UAS\Smart-Parkir\captured_images\processed_20250615_140254.jpg
+Jun 15, 2025 2:02:55 PM org.example.ScanPlatNomor performOCR
+INFO: OCR raw result: 
+Jun 15, 2025 2:02:55 PM org.example.ScanPlatNomor cleanupLicensePlate
+INFO: Original OCR text: 
+Jun 15, 2025 2:06:38 PM org.example.ScanPlatNomor startCamera
+INFO: Memulai kamera dengan format: dshow
+Jun 15, 2025 2:06:42 PM org.example.ScanPlatNomor updateCameraImage
+SEVERE: Error updating camera image
+org.bytedeco.javacv.FrameGrabber$Exception: grab() Error: Could not grab frame. (Has start() been called?)
+	at org.bytedeco.javacv.OpenCVFrameGrabber.grab(OpenCVFrameGrabber.java:298)
+	at org.example.ScanPlatNomor.updateCameraImage(ScanPlatNomor.java:399)
+	at org.example.ScanPlatNomor.lambda$startCamera$3(ScanPlatNomor.java:346)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:358)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+Jun 15, 2025 2:06:42 PM org.example.ScanPlatNomor updateCameraImage
+WARNING: Recovery attempt 0 failed
+org.bytedeco.javacv.FrameGrabber$Exception: grab() Error: Could not grab frame. (Has start() been called?)
+	at org.bytedeco.javacv.OpenCVFrameGrabber.grab(OpenCVFrameGrabber.java:298)
+	at org.example.ScanPlatNomor.updateCameraImage(ScanPlatNomor.java:421)
+	at org.example.ScanPlatNomor.lambda$startCamera$3(ScanPlatNomor.java:346)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:358)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+Jun 15, 2025 2:06:43 PM org.example.ScanPlatNomor updateCameraImage
+WARNING: Recovery attempt 0 failed
+org.bytedeco.javacv.FrameGrabber$Exception: grab() Error: Could not grab frame. (Has start() been called?)
+	at org.bytedeco.javacv.OpenCVFrameGrabber.grab(OpenCVFrameGrabber.java:298)
+	at org.example.ScanPlatNomor.updateCameraImage(ScanPlatNomor.java:421)
+	at org.example.ScanPlatNomor.lambda$startCamera$3(ScanPlatNomor.java:346)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:358)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+Jun 15, 2025 2:06:43 PM org.example.ScanPlatNomor updateCameraImage
+WARNING: Recovery attempt 0 failed
+org.bytedeco.javacv.FrameGrabber$Exception: grab() Error: Could not grab frame. (Has start() been called?)
+	at org.bytedeco.javacv.OpenCVFrameGrabber.grab(OpenCVFrameGrabber.java:298)
+	at org.example.ScanPlatNomor.updateCameraImage(ScanPlatNomor.java:421)
+	at org.example.ScanPlatNomor.lambda$startCamera$3(ScanPlatNomor.java:346)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:358)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+Jun 15, 2025 2:06:44 PM org.example.ScanPlatNomor updateCameraImage
+WARNING: Recovery attempt 0 failed
+org.bytedeco.javacv.FrameGrabber$Exception: grab() Error: Could not grab frame. (Has start() been called?)
+	at org.bytedeco.javacv.OpenCVFrameGrabber.grab(OpenCVFrameGrabber.java:298)
+	at org.example.ScanPlatNomor.updateCameraImage(ScanPlatNomor.java:421)
+	at org.example.ScanPlatNomor.lambda$startCamera$3(ScanPlatNomor.java:346)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:358)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+Jun 15, 2025 2:06:44 PM org.example.ScanPlatNomor updateCameraImage
+WARNING: Recovery attempt 0 failed
+org.bytedeco.javacv.FrameGrabber$Exception: grab() Error: Could not grab frame. (Has start() been called?)
+	at org.bytedeco.javacv.OpenCVFrameGrabber.grab(OpenCVFrameGrabber.java:298)
+	at org.example.ScanPlatNomor.updateCameraImage(ScanPlatNomor.java:421)
+	at org.example.ScanPlatNomor.lambda$startCamera$3(ScanPlatNomor.java:346)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:358)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+Jun 15, 2025 2:06:45 PM org.example.ScanPlatNomor updateCameraImage
+WARNING: Recovery attempt 0 failed
+org.bytedeco.javacv.FrameGrabber$Exception: grab() Error: Could not grab frame. (Has start() been called?)
+	at org.bytedeco.javacv.OpenCVFrameGrabber.grab(OpenCVFrameGrabber.java:298)
+	at org.example.ScanPlatNomor.updateCameraImage(ScanPlatNomor.java:421)
+	at org.example.ScanPlatNomor.lambda$startCamera$3(ScanPlatNomor.java:346)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:358)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+Jun 15, 2025 2:06:45 PM org.example.ScanPlatNomor updateCameraImage
+WARNING: Recovery attempt 0 failed
+org.bytedeco.javacv.FrameGrabber$Exception: grab() Error: Could not grab frame. (Has start() been called?)
+	at org.bytedeco.javacv.OpenCVFrameGrabber.grab(OpenCVFrameGrabber.java:298)
+	at org.example.ScanPlatNomor.updateCameraImage(ScanPlatNomor.java:421)
+	at org.example.ScanPlatNomor.lambda$startCamera$3(ScanPlatNomor.java:346)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:358)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+Jun 15, 2025 2:06:46 PM org.example.ScanPlatNomor updateCameraImage
+WARNING: Recovery attempt 0 failed
+org.bytedeco.javacv.FrameGrabber$Exception: grab() Error: Could not grab frame. (Has start() been called?)
+	at org.bytedeco.javacv.OpenCVFrameGrabber.grab(OpenCVFrameGrabber.java:298)
+	at org.example.ScanPlatNomor.updateCameraImage(ScanPlatNomor.java:421)
+	at org.example.ScanPlatNomor.lambda$startCamera$3(ScanPlatNomor.java:346)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:358)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+Jun 15, 2025 2:06:46 PM org.example.ScanPlatNomor updateCameraImage
+WARNING: Recovery attempt 0 failed
+org.bytedeco.javacv.FrameGrabber$Exception: grab() Error: Could not grab frame. (Has start() been called?)
+	at org.bytedeco.javacv.OpenCVFrameGrabber.grab(OpenCVFrameGrabber.java:298)
+	at org.example.ScanPlatNomor.updateCameraImage(ScanPlatNomor.java:421)
+	at org.example.ScanPlatNomor.lambda$startCamera$3(ScanPlatNomor.java:346)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:358)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+Jun 15, 2025 2:06:47 PM org.example.ScanPlatNomor updateCameraImage
+WARNING: Recovery attempt 0 failed
+org.bytedeco.javacv.FrameGrabber$Exception: grab() Error: Could not grab frame. (Has start() been called?)
+	at org.bytedeco.javacv.OpenCVFrameGrabber.grab(OpenCVFrameGrabber.java:298)
+	at org.example.ScanPlatNomor.updateCameraImage(ScanPlatNomor.java:421)
+	at org.example.ScanPlatNomor.lambda$startCamera$3(ScanPlatNomor.java:346)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:358)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+Jun 15, 2025 2:06:47 PM org.example.ScanPlatNomor updateCameraImage
+WARNING: Recovery attempt 0 failed
+org.bytedeco.javacv.FrameGrabber$Exception: grab() Error: Could not grab frame. (Has start() been called?)
+	at org.bytedeco.javacv.OpenCVFrameGrabber.grab(OpenCVFrameGrabber.java:298)
+	at org.example.ScanPlatNomor.updateCameraImage(ScanPlatNomor.java:421)
+	at org.example.ScanPlatNomor.lambda$startCamera$3(ScanPlatNomor.java:346)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:358)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+Jun 15, 2025 2:06:48 PM org.example.ScanPlatNomor updateCameraImage
+WARNING: Recovery attempt 0 failed
+org.bytedeco.javacv.FrameGrabber$Exception: grab() Error: Could not grab frame. (Has start() been called?)
+	at org.bytedeco.javacv.OpenCVFrameGrabber.grab(OpenCVFrameGrabber.java:298)
+	at org.example.ScanPlatNomor.updateCameraImage(ScanPlatNomor.java:421)
+	at org.example.ScanPlatNomor.lambda$startCamera$3(ScanPlatNomor.java:346)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:358)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+Jun 15, 2025 2:06:48 PM org.example.ScanPlatNomor updateCameraImage
+WARNING: Recovery attempt 0 failed
+org.bytedeco.javacv.FrameGrabber$Exception: grab() Error: Could not grab frame. (Has start() been called?)
+	at org.bytedeco.javacv.OpenCVFrameGrabber.grab(OpenCVFrameGrabber.java:298)
+	at org.example.ScanPlatNomor.updateCameraImage(ScanPlatNomor.java:421)
+	at org.example.ScanPlatNomor.lambda$startCamera$3(ScanPlatNomor.java:346)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:358)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+Jun 15, 2025 2:06:49 PM org.example.ScanPlatNomor updateCameraImage
+WARNING: Recovery attempt 0 failed
+org.bytedeco.javacv.FrameGrabber$Exception: grab() Error: Could not grab frame. (Has start() been called?)
+	at org.bytedeco.javacv.OpenCVFrameGrabber.grab(OpenCVFrameGrabber.java:298)
+	at org.example.ScanPlatNomor.updateCameraImage(ScanPlatNomor.java:421)
+	at org.example.ScanPlatNomor.lambda$startCamera$3(ScanPlatNomor.java:346)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:358)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+Jun 15, 2025 2:06:49 PM org.example.ScanPlatNomor updateCameraImage
+WARNING: Recovery attempt 0 failed
+org.bytedeco.javacv.FrameGrabber$Exception: grab() Error: Could not grab frame. (Has start() been called?)
+	at org.bytedeco.javacv.OpenCVFrameGrabber.grab(OpenCVFrameGrabber.java:298)
+	at org.example.ScanPlatNomor.updateCameraImage(ScanPlatNomor.java:421)
+	at org.example.ScanPlatNomor.lambda$startCamera$3(ScanPlatNomor.java:346)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:358)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+Jun 15, 2025 2:06:50 PM org.example.ScanPlatNomor updateCameraImage
+WARNING: Recovery attempt 0 failed
+org.bytedeco.javacv.FrameGrabber$Exception: grab() Error: Could not grab frame. (Has start() been called?)
+	at org.bytedeco.javacv.OpenCVFrameGrabber.grab(OpenCVFrameGrabber.java:298)
+	at org.example.ScanPlatNomor.updateCameraImage(ScanPlatNomor.java:421)
+	at org.example.ScanPlatNomor.lambda$startCamera$3(ScanPlatNomor.java:346)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:358)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+Jun 15, 2025 2:06:50 PM org.example.ScanPlatNomor updateCameraImage
+WARNING: Recovery attempt 0 failed
+org.bytedeco.javacv.FrameGrabber$Exception: grab() Error: Could not grab frame. (Has start() been called?)
+	at org.bytedeco.javacv.OpenCVFrameGrabber.grab(OpenCVFrameGrabber.java:298)
+	at org.example.ScanPlatNomor.updateCameraImage(ScanPlatNomor.java:421)
+	at org.example.ScanPlatNomor.lambda$startCamera$3(ScanPlatNomor.java:346)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:358)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+Jun 15, 2025 2:06:51 PM org.example.ScanPlatNomor updateCameraImage
+WARNING: Recovery attempt 0 failed
+org.bytedeco.javacv.FrameGrabber$Exception: grab() Error: Could not grab frame. (Has start() been called?)
+	at org.bytedeco.javacv.OpenCVFrameGrabber.grab(OpenCVFrameGrabber.java:298)
+	at org.example.ScanPlatNomor.updateCameraImage(ScanPlatNomor.java:421)
+	at org.example.ScanPlatNomor.lambda$startCamera$3(ScanPlatNomor.java:346)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:358)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+Jun 15, 2025 2:06:52 PM org.example.ScanPlatNomor updateCameraImage
+WARNING: Recovery attempt 0 failed
+org.bytedeco.javacv.FrameGrabber$Exception: grab() Error: Could not grab frame. (Has start() been called?)
+	at org.bytedeco.javacv.OpenCVFrameGrabber.grab(OpenCVFrameGrabber.java:298)
+	at org.example.ScanPlatNomor.updateCameraImage(ScanPlatNomor.java:421)
+	at org.example.ScanPlatNomor.lambda$startCamera$3(ScanPlatNomor.java:346)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:358)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+Jun 15, 2025 2:06:52 PM org.example.ScanPlatNomor updateCameraImage
+WARNING: Recovery attempt 0 failed
+org.bytedeco.javacv.FrameGrabber$Exception: grab() Error: Could not grab frame. (Has start() been called?)
+	at org.bytedeco.javacv.OpenCVFrameGrabber.grab(OpenCVFrameGrabber.java:298)
+	at org.example.ScanPlatNomor.updateCameraImage(ScanPlatNomor.java:421)
+	at org.example.ScanPlatNomor.lambda$startCamera$3(ScanPlatNomor.java:346)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:358)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+Jun 15, 2025 2:06:53 PM org.example.ScanPlatNomor updateCameraImage
+WARNING: Recovery attempt 0 failed
+org.bytedeco.javacv.FrameGrabber$Exception: grab() Error: Could not grab frame. (Has start() been called?)
+	at org.bytedeco.javacv.OpenCVFrameGrabber.grab(OpenCVFrameGrabber.java:298)
+	at org.example.ScanPlatNomor.updateCameraImage(ScanPlatNomor.java:421)
+	at org.example.ScanPlatNomor.lambda$startCamera$3(ScanPlatNomor.java:346)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:358)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+Jun 15, 2025 2:06:53 PM org.example.ScanPlatNomor updateCameraImage
+WARNING: Recovery attempt 0 failed
+org.bytedeco.javacv.FrameGrabber$Exception: grab() Error: Could not grab frame. (Has start() been called?)
+	at org.bytedeco.javacv.OpenCVFrameGrabber.grab(OpenCVFrameGrabber.java:298)
+	at org.example.ScanPlatNomor.updateCameraImage(ScanPlatNomor.java:421)
+	at org.example.ScanPlatNomor.lambda$startCamera$3(ScanPlatNomor.java:346)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:358)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+Jun 15, 2025 2:06:54 PM org.example.ScanPlatNomor updateCameraImage
+WARNING: Recovery attempt 0 failed
+org.bytedeco.javacv.FrameGrabber$Exception: grab() Error: Could not grab frame. (Has start() been called?)
+	at org.bytedeco.javacv.OpenCVFrameGrabber.grab(OpenCVFrameGrabber.java:298)
+	at org.example.ScanPlatNomor.updateCameraImage(ScanPlatNomor.java:421)
+	at org.example.ScanPlatNomor.lambda$startCamera$3(ScanPlatNomor.java:346)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:358)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+Jun 15, 2025 2:06:54 PM org.example.ScanPlatNomor updateCameraImage
+WARNING: Recovery attempt 0 failed
+org.bytedeco.javacv.FrameGrabber$Exception: grab() Error: Could not grab frame. (Has start() been called?)
+	at org.bytedeco.javacv.OpenCVFrameGrabber.grab(OpenCVFrameGrabber.java:298)
+	at org.example.ScanPlatNomor.updateCameraImage(ScanPlatNomor.java:421)
+	at org.example.ScanPlatNomor.lambda$startCamera$3(ScanPlatNomor.java:346)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:358)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+Jun 15, 2025 2:06:55 PM org.example.ScanPlatNomor updateCameraImage
+WARNING: Recovery attempt 0 failed
+org.bytedeco.javacv.FrameGrabber$Exception: grab() Error: Could not grab frame. (Has start() been called?)
+	at org.bytedeco.javacv.OpenCVFrameGrabber.grab(OpenCVFrameGrabber.java:298)
+	at org.example.ScanPlatNomor.updateCameraImage(ScanPlatNomor.java:421)
+	at org.example.ScanPlatNomor.lambda$startCamera$3(ScanPlatNomor.java:346)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:358)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+Jun 15, 2025 3:50:26 PM org.example.ScanPlatNomor startCamera
+INFO: Memulai kamera dengan format: dshow
+Jun 15, 2025 3:51:30 PM org.example.ScanPlatNomor captureImage
+INFO: Captured image saved to: captured_images/plate_20250615_155130.jpg
+Jun 15, 2025 3:51:33 PM org.example.ScanPlatNomor performOCR
+INFO: Performing OCR on file: C:\Users\rafif\Downloads\ALPRO UAS\Smart-Parkir\captured_images\processed_20250615_155133.jpg
+Jun 15, 2025 3:51:33 PM org.example.ScanPlatNomor performOCR
+INFO: OCR raw result: 
+Jun 15, 2025 3:51:33 PM org.example.ScanPlatNomor cleanupLicensePlate
+INFO: Original OCR text: 
+Jun 15, 2025 3:55:34 PM org.example.ScanPlatNomor updateCameraImage
+SEVERE: Error updating camera image
+org.bytedeco.javacv.FrameGrabber$Exception: grab() Error: Could not grab frame. (Has start() been called?)
+	at org.bytedeco.javacv.OpenCVFrameGrabber.grab(OpenCVFrameGrabber.java:298)
+	at org.example.ScanPlatNomor.updateCameraImage(ScanPlatNomor.java:399)
+	at org.example.ScanPlatNomor.lambda$startCamera$3(ScanPlatNomor.java:346)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:358)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+Jun 15, 2025 7:27:43 PM org.example.ScanPlatNomor <init>
+INFO: ScanPlatNomor window initialized
+Jun 15, 2025 7:27:49 PM org.example.ScanPlatNomor startCamera
+INFO: Memulai kamera dengan format: dshow
+Jun 15, 2025 7:28:14 PM org.example.ScanPlatNomor captureImage
+INFO: Captured image saved to: captured_images/plate_20250615_192814.jpg
+Jun 15, 2025 7:28:17 PM org.example.ScanPlatNomor debugImageInfo
+INFO: === Grayscale Image ===
+Jun 15, 2025 7:28:17 PM org.example.ScanPlatNomor debugImageInfo
+INFO: Image size: 640x480
+Jun 15, 2025 7:28:17 PM org.example.ScanPlatNomor debugImageInfo
+INFO: Image channels: 1
+Jun 15, 2025 7:28:17 PM org.example.ScanPlatNomor debugImageInfo
+INFO: Image depth: 0
+Jun 15, 2025 7:28:17 PM org.example.ScanPlatNomor debugImageInfo
+INFO: Image type: 0
+Jun 15, 2025 7:28:17 PM org.example.ScanPlatNomor debugImageInfo
+INFO: Is empty: false
+Jun 15, 2025 7:28:17 PM org.example.ScanPlatNomor processImage
+INFO: Trying OCR on original image...
+Jun 15, 2025 7:28:17 PM org.example.ScanPlatNomor performOCR
+INFO: Attempting OCR on file: C:\Users\rafif\Downloads\ALPRO UAS\Smart-Parkir\captured_images\original_for_ocr_20250615_192817.jpg
+Jun 15, 2025 7:28:17 PM org.example.ScanPlatNomor performOCR
+INFO: File size: 90886 bytes
+Jun 15, 2025 7:28:17 PM org.example.ScanPlatNomor performOCR
+INFO: Trying OCR with language: eng
+Jun 15, 2025 7:28:17 PM org.example.ScanPlatNomor performOCR
+INFO: OCR result with eng: 'B 1001 ZZZ
+'
+Jun 15, 2025 7:28:17 PM org.example.ScanPlatNomor performOCR
+INFO: OCR successful with language: eng
+Jun 15, 2025 7:28:17 PM org.example.ScanPlatNomor processImage
+INFO: Final OCR result: 'B 1001 ZZZ
+'
+Jun 15, 2025 7:28:17 PM org.example.ScanPlatNomor cleanupLicensePlate
+INFO: Original OCR text: B 1001 ZZZ
+
+Jun 15, 2025 7:28:17 PM org.example.ScanPlatNomor cleanupLicensePlate
+INFO: After basic cleanup: B 1001 ZZZ
+Jun 15, 2025 7:28:17 PM org.example.ScanPlatNomor cleanupLicensePlate
+INFO: Final cleaned plate: B 1001 ZZZ
+Jun 15, 2025 7:28:38 PM org.example.ScanPlatNomor resetForm
+INFO: Scan form reset
+Jun 15, 2025 7:29:00 PM org.example.ScanPlatNomor stopCamera
+INFO: Camera stopped successfully
+Jun 15, 2025 7:29:09 PM org.example.ScanPlatNomor updateCameraImage
+SEVERE: Error updating camera image
+org.bytedeco.javacv.FrameGrabber$Exception: grab() Error: Could not grab frame. (Has start() been called?)
+	at org.bytedeco.javacv.OpenCVFrameGrabber.grab(OpenCVFrameGrabber.java:298)
+	at org.example.ScanPlatNomor.updateCameraImage(ScanPlatNomor.java:401)
+	at org.example.ScanPlatNomor.lambda$startCamera$3(ScanPlatNomor.java:348)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:358)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+Jun 15, 2025 7:30:52 PM org.example.ScanPlatNomor <init>
+INFO: ScanPlatNomor window initialized

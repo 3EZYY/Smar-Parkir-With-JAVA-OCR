@@ -5,8 +5,8 @@
          http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.smartparking</groupId>
-    <artifactId>smart-parking-system</artifactId>
+    <groupId>org.example</groupId>
+    <artifactId>smart-parkir</artifactId>
     <version>1.0-SNAPSHOT</version>
     <packaging>jar</packaging>
 
@@ -14,10 +14,11 @@
     <description>Sistem Parkir Otomatis dengan Java Swing</description>
 
     <properties>
-        <!-- Pastikan versi Java sesuai dengan yang Anda gunakan -->
-        <maven.compiler.source>17</maven.compiler.source> <!-- Ganti dengan 21 jika sudah menggunakan JDK 21 -->
-        <maven.compiler.target>17</maven.compiler.target> <!-- Ganti dengan 21 jika sudah menggunakan JDK 21 -->
+        <!-- Update Java version to 21 to match your environment -->
+        <maven.compiler.source>21</maven.compiler.source>
+        <maven.compiler.target>21</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <opencv.version>4.8.0</opencv.version>
     </properties>
 
     <dependencies>
@@ -28,18 +29,29 @@
             <version>8.0.33</version>
         </dependency>
 
-        <!-- OpenCV untuk camera dan image processing -->
+        <!-- OpenCV - using maven central version with native bindings -->
         <dependency>
-            <groupId>org.openpnp</groupId>
-            <artifactId>opencv</artifactId>
-            <version>4.7.0-0</version>
+            <groupId>org.bytedeco</groupId>
+            <artifactId>javacv-platform</artifactId>
+            <version>1.5.10</version>
         </dependency>
 
-        <!-- Tesseract OCR untuk text recognition -->
+        <!-- Tesseract OCR for text recognition -->
         <dependency>
             <groupId>net.sourceforge.tess4j</groupId>
             <artifactId>tess4j</artifactId>
             <version>5.8.0</version>
+            <exclusions>
+                <!-- Exclude conflicting dependencies -->
+                <exclusion>
+                    <groupId>org.slf4j</groupId>
+                    <artifactId>slf4j-log4j12</artifactId>
+                </exclusion>
+                <exclusion>
+                    <groupId>log4j</groupId>
+                    <artifactId>log4j</artifactId>
+                </exclusion>
+            </exclusions>
         </dependency>
 
         <!-- Look and Feel untuk UI yang lebih modern -->
@@ -47,6 +59,20 @@
             <groupId>com.formdev</groupId>
             <artifactId>flatlaf</artifactId>
             <version>3.2.5</version>
+        </dependency>
+
+        <!-- SLF4J API for logging -->
+        <dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>slf4j-api</artifactId>
+            <version>2.0.9</version>
+        </dependency>
+
+        <!-- SLF4J Simple binding for logging -->
+        <dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>slf4j-simple</artifactId>
+            <version>2.0.9</version>
         </dependency>
 
         <!-- Date Time utilities -->
@@ -59,13 +85,14 @@
 
     <build>
         <plugins>
+            <!-- Compiler plugin -->
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
                 <version>3.11.0</version>
                 <configuration>
-                    <source>17</source> <!-- Sesuaikan dengan versi Java Anda -->
-                    <target>17</target> <!-- Sesuaikan dengan versi Java Anda -->
+                    <source>21</source>
+                    <target>21</target>
                 </configuration>
             </plugin>
 
@@ -81,12 +108,44 @@
                             <goal>shade</goal>
                         </goals>
                         <configuration>
+                            <createDependencyReducedPom>false</createDependencyReducedPom>
                             <transformers>
                                 <transformer implementation="org.apache.maven.plugins.shade.resource.ManifestResourceTransformer">
-                                    <!-- Pastikan mainClass sesuai dengan lokasi kelas utama aplikasi Anda -->
-                                    <mainClass>com.smartparking.main.SmartParkingApp</mainClass>
+                                    <!-- Update main class to match your package structure -->
+                                    <mainClass>org.example.SmartParkingApp</mainClass>
                                 </transformer>
+                                <transformer implementation="org.apache.maven.plugins.shade.resource.ServicesResourceTransformer"/>
                             </transformers>
+                            <filters>
+                                <filter>
+                                    <artifact>*:*</artifact>
+                                    <excludes>
+                                        <exclude>META-INF/*.SF</exclude>
+                                        <exclude>META-INF/*.DSA</exclude>
+                                        <exclude>META-INF/*.RSA</exclude>
+                                    </excludes>
+                                </filter>
+                            </filters>
+                        </configuration>
+                    </execution>
+                </executions>
+            </plugin>
+
+            <!-- Copy dependencies including native libraries -->
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-dependency-plugin</artifactId>
+                <version>3.6.0</version>
+                <executions>
+                    <execution>
+                        <id>copy-dependencies</id>
+                        <phase>prepare-package</phase>
+                        <goals>
+                            <goal>copy-dependencies</goal>
+                        </goals>
+                        <configuration>
+                            <outputDirectory>${project.build.directory}/lib</outputDirectory>
+                            <includeScope>runtime</includeScope>
                         </configuration>
                     </execution>
                 </executions>
